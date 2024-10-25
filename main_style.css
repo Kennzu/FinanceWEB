@@ -1,0 +1,937 @@
+body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color: #545353;
+}
+
+
+/* Верхняя навигационная панель */
+.navbar {
+    background-color: #35F2BA;
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: center; /* Центрируем все содержимое навбара */
+    padding: 10px 20px; /* Внутренние отступы для панели */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.left-section {
+    display: flex; /* Используем Flexbox для горизонтального расположения кнопок */
+    position: absolute; /* Абсолютное позиционирование для левой секции */
+    left: 20px; /* Отступ от левого края */
+}
+
+.text {
+    color: black;
+    font-size: 24px; /* Размер шрифта */
+    margin-right: 20px; /* Отступ между кнопками */
+    text-decoration: none;
+}
+
+.application-center {
+    margin-left: auto; /* Отталкиваем SVG от левой секции */
+    margin-right: auto; /* Отталкиваем SVG от правой секции */
+}
+
+.right-section {
+    position: absolute; /* Абсолютное позиционирование для правой секции */
+    right: 20px; /* Отступ от правого края */
+}
+
+/* Основная страница 1 блок */
+.container-first {
+    width: 1176px;
+    height: 633px;
+    border-radius: 27px;
+    background-color: #484848;
+    display: flex;
+    justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.big_text {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.border-button {
+    width: 352px;
+    height: 49px;
+    border-radius: 27px;
+    background-color: #35F2BA;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    transition: box-shadow 0.3s ease;
+}
+
+
+.button {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+.border-button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6), 
+    0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* .button-rectangle-bottom {
+    width: 352px;
+    height: 49px;
+    border-radius: 27px;
+    background-color: #35F2BA;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+} */
+
+.top-rectangle {
+    width: 1176px;
+    height: 47px;
+    background-color: #35F2BA;
+    border-top-right-radius: 27px;
+    border-top-left-radius: 27px;
+}
+
+.bottom-rectangle {
+    width: 1176px;
+    height: 47px;
+    background-color: #35F2BA;
+    border-bottom-left-radius: 27px; /* Скругление верхних и нижних углов*/
+    border-bottom-right-radius: 27px ;
+
+}
+
+.big_text {
+    font-size: 32px;
+    color: white;
+}
+
+.text_all {
+    color: white;
+    font-size: 24px; /* Общий текст на странице */
+}
+
+#first_text {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify; /* Выравнивание текста по ширине */
+}
+
+#first_secondary_text {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.backgroundImage-first {
+    position: absolute; /* позволяет использовать z-index */
+    z-index: -1;
+    top: -60px;
+    margin-left: 150px;
+    opacity: 45%;
+}
+
+.bottom-rectangle-main {
+    background-color:#35F2BA;
+    width:1440;
+    height: 38px;
+    margin-top: 160px;
+}
+
+.wave-first {
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: center; /* Центрируем все содержимое навбара */
+    width: auto; 
+    height: 318px; 
+}
+
+.wave-second {
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: center; /* Центрируем все содержимое навбара */
+}
+
+/* Основная страница 2 блок */
+.container-second {
+    width: 849px;
+    height: 700px;
+    border-radius: 27px;
+    background-color: #484848;
+    display: flex;
+    justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.top-rectangle-second {
+    width: 849px;
+    height: 52px;
+    background-color: #35F2BA;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+}
+
+.bottom-rectangle-second {
+    width: 849px;
+    height: 52px;
+    background-color: #35F2BA;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+
+#second_text {
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 50px;
+    text-align: justify; /* Выравнивание текста по ширине */
+}
+
+.second_text-list {
+    padding-bottom: 20px;
+}
+
+.bottom-rectangle-second-main {
+    background-color:#35F2BA;
+    width:1440;
+    height: 38px;
+    margin-top: 160px;
+}
+
+.wave-third {
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: center; /* Центрируем все содержимое навбара */
+}
+
+.wave-fourth {
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: center; /* Центрируем все содержимое навбара */
+}
+
+/* Основная страница блок 3 */
+.container-third {
+    width: 722px;
+    height: 537px;
+    border-radius: 27px;
+    background-color: #484848;
+    display: flex;
+    justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: 60px;
+}
+
+.top-rectangle-third {
+    width: 722px;
+    height: 40px;
+    background-color: #35F2BA;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+}
+
+.bottom-rectangle-third {
+    width: 722px;
+    height: 40px;
+    background-color: #35F2BA;
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+
+#third_text {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify; /* Выравнивание текста по ширине */
+}
+
+.text-root {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    opacity: 45%;
+}
+
+.backgroundImage-third {
+    position: absolute; /* позволяет использовать z-index */
+    z-index: -1;
+    top: 1980px;
+    bottom: 100px;
+    right: 100px;
+    opacity: 60%;
+}
+
+.backgroundImage-second-right {
+    position: absolute; /* позволяет использовать z-index */
+    z-index: -1;
+    margin-left: 1300px;
+    bottom: -680px;
+}
+
+.backgroundImage-second-left {
+    position: absolute;
+    z-index: -1;
+    bottom: -680px;
+}
+
+@media (max-width: 3840px) and (max-height: 2160px) {
+    .backgroundImage-first {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: -60px;
+        margin-left: 1050px;
+        opacity: 45%;
+    }
+
+    .backgroundImage-second-right {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        margin-left: 2250px;
+        bottom: 400px;
+    }
+    
+    .backgroundImage-second-left {
+        position: absolute;
+        z-index: -1;
+        bottom: 350px;
+        margin-left: 750px;
+    }
+
+    .container-third {
+        width: 722px;
+        height: 537px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 200px;
+        margin-right: auto;
+        margin-left: 1430px;
+    }
+
+    .backgroundImage-third {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: 1980px;
+        bottom: 100px;
+        right: 600px;
+        opacity: 60%;
+    }
+}
+
+@media (max-width: 2400px) and (max-height: 1400px) {
+    .backgroundImage-first {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: -60px;
+        margin-left: 450px;
+        opacity: 45%;
+    }
+
+    .backgroundImage-second-right {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        margin-left: 1750px;
+        bottom: -300px;
+    }
+    
+    .backgroundImage-second-left {
+        position: absolute;
+        z-index: -1;
+        bottom: -350px;
+        margin-left: 150px;
+    }
+
+    .container-third {
+        width: 722px;
+        height: 537px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 200px;
+        margin-right: auto;
+        margin-left: 850px;
+    }
+
+    .backgroundImage-third {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: 1980px;
+        bottom: 100px;
+        right: 300px;
+        opacity: 60%;
+    }
+}
+
+@media (max-width: 2150px) and (max-height: 1250px) {
+    /* Первое изображение */
+    .backgroundImage-first {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: -60px;
+        margin-left: 300px;
+        opacity: 45%;
+    }
+
+    .backgroundImage-second-right {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        margin-left: 1530px;
+        bottom: -500px;
+    }
+    
+    .backgroundImage-second-left {
+        position: absolute;
+        z-index: -1;
+        bottom: -550px;
+        margin-left: 100px;
+    }
+
+    .container-third {
+        width: 722px;
+        height: 537px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 200px;
+        margin-right: auto;
+        margin-left: 690px;
+    }
+
+    .backgroundImage-third {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: 1980px;
+        bottom: 100px;
+        right: 300px;
+        opacity: 60%;
+    }
+}
+
+@media (max-width: 1792px) and (max-height: 1040px) {
+    .backgroundImage-first {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: -60px;
+        margin-left: 140px;
+        opacity: 45%;
+    }
+
+    .backgroundImage-second-right {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        margin-left: 1300px;
+        bottom: -680px;
+    }
+    
+    .backgroundImage-second-left {
+        position: absolute;
+        z-index: -1;
+        bottom: -700px;
+        margin-left: 0px;
+    }
+
+    .container-third {
+        width: 722px;
+        height: 537px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 200px;
+        margin-right: auto;
+        margin-left: 60px;
+    }
+
+    .backgroundImage-third {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: 1980px;
+        bottom: 100px;
+        right: 100px;
+        opacity: 60%;
+    }
+}
+
+
+@media (max-width: 1600px) and (max-height: 950px){
+
+    /* Первое изображение */
+    .backgroundImage-first {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: -60px;
+        margin-left: 30px;
+        opacity: 45%;
+    }
+
+    .backgroundImage-second-right {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        margin-left: 1130px;
+        bottom: -780px;
+    }
+    
+    .backgroundImage-second-left {
+        position: absolute;
+        z-index: -1;
+        bottom: -800px;
+    }
+}
+
+@media (max-width: 1450px) and (max-height: 850px) {
+
+    /* Первое изображение */
+    .backgroundImage-first {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        top: -60px;
+        margin-left: 0px;
+        opacity: 45%;
+    }
+
+    .backgroundImage-second-right {
+        position: absolute; /* позволяет использовать z-index */
+        z-index: -1;
+        margin-left: 1000px;
+        bottom: -800px;
+    }
+    
+    .backgroundImage-second-left {
+        position: absolute;
+        z-index: -1;
+        bottom: -850px;
+    }
+}
+
+@media (max-width: 1200px) and (max-height: 800px) {
+
+        /* Первое изображение */
+        .backgroundImage-first {
+            position: absolute; /* позволяет использовать z-index */
+            z-index: -1;
+            top: -60px;
+            margin-left: 10px;
+            display: none;
+        }
+
+        .big_text {
+            margin-right: auto;
+            margin-left: auto;
+            font-size: 38px;
+            color: white;
+        }
+        
+        .text_all {
+            color: white;
+            font-size: 28px; /* Общий текст на странице */
+        }
+
+        .container-first {
+            width: 1176px;
+            height: 633px;
+            border-radius: 27px;
+            background-color: #484848;
+            display: flex;
+            justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+            flex-direction: column;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .container-second {
+            width: 849px;
+            height: 800px;
+            border-radius: 27px;
+            background-color: #484848;
+            display: flex;
+            justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+            flex-direction: column;
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        .backgroundImage-second-right {
+            position: absolute; /* позволяет использовать z-index */
+            z-index: -1;
+            margin-left: 1000px;
+            bottom: -800px;
+            right: 100px;
+            display: none;
+        }
+        
+        .backgroundImage-second-left {
+            position: absolute;
+            z-index: -1;
+            bottom: -800px;
+            opacity: 0%;
+        }
+
+        .container-third {
+            width: 722px;
+            height: 537px;
+            border-radius: 27px;
+            background-color: #484848;
+            display: flex;
+            justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+            flex-direction: column;
+            margin: auto;
+            margin-top: 200px;
+            margin-right: auto;
+            margin-left: 240px;
+        }
+         .backgroundImage-third {
+            display: none;
+         }
+}
+
+@media (max-width: 1024px) and (max-height: 600px) {
+
+    .container-first {
+        width: 1024px;
+        height: 633px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .top-rectangle {
+        width: 1024px;
+        height: 47px;
+        background-color: #35F2BA;
+        border-top-right-radius: 27px;
+        border-top-left-radius: 27px;
+    }
+    
+    .bottom-rectangle {
+        width: 1024px;
+        height: 47px;
+        background-color: #35F2BA;
+        border-bottom-left-radius: 27px; /* Скругление верхних и нижних углов*/
+        border-bottom-right-radius: 27px ;
+    
+    }
+
+    .container-third {
+        width: 722px;
+        height: 537px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 60px;
+        margin-right: auto;
+        margin-left: 160px;
+    }
+}
+
+@media (max-width: 900px) and (max-height: 560px) {
+    .container-first {
+        width: 896px;
+        height: 633px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .top-rectangle {
+        width: 896px;
+        height: 47px;
+        background-color: #35F2BA;
+        border-top-right-radius: 27px;
+        border-top-left-radius: 27px;
+    }
+    
+    .bottom-rectangle {
+        width: 896px;
+        height: 47px;
+        background-color: #35F2BA;
+        border-bottom-left-radius: 27px; /* Скругление верхних и нижних углов*/
+        border-bottom-right-radius: 27px ;
+    
+    }
+
+    .container-third {
+        width: 722px;
+        height: 537px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 60px;
+        margin-right: auto;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 800px) and (max-height: 450px) {
+
+    .text {
+        color: black;
+        font-size: 18px; /* Размер шрифта */
+        margin-right: 20px; /* Отступ между кнопками */
+        text-decoration: none;
+    }
+
+    .left-section {
+        display: flex; /* Используем Flexbox для горизонтального расположения кнопок */
+        position: absolute; /* Абсолютное позиционирование для левой секции */
+        left: 20px; /* Отступ от левого края */
+    }
+
+    .right-section {
+        position: absolute; /* Абсолютное позиционирование для правой секции */
+        right: 20px; /* Отступ от правого края */
+    }
+
+    .container-first {
+        width: 700px;
+        height: 900px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .top-rectangle {
+        width: 700px;
+        height: 47px;
+        background-color: #35F2BA;
+        border-top-right-radius: 27px;
+        border-top-left-radius: 27px;
+    }
+    
+    .bottom-rectangle {
+        width: 700px;
+        height: 47px;
+        background-color: #35F2BA;
+        border-bottom-left-radius: 27px; /* Скругление верхних и нижних углов*/
+        border-bottom-right-radius: 27px ;
+    
+    }
+
+    .container-second {
+        width: 700px;
+        height: 1000px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .top-rectangle-second {
+        width: 700px;
+        height: 52px;
+        background-color: #35F2BA;
+        border-top-left-radius: 27px;
+        border-top-right-radius: 27px;
+    }
+    
+    .bottom-rectangle-second {
+        width: 700px;
+        height: 52px;
+        background-color: #35F2BA;
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+    }
+
+    .container-third {
+        width: 700px;
+        height: 537px;
+        border-radius: 27px;
+        background-color: #484848;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+
+    .top-rectangle-third {
+        width: 700px;
+        height: 40px;
+        background-color: #35F2BA;
+        border-top-left-radius: 27px;
+        border-top-right-radius: 27px;
+    }
+    
+    .bottom-rectangle-third {
+        width: 700px;
+        height: 40px;
+        background-color: #35F2BA;
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+    }
+}
+
+@media (max-width: 640px) and (max-height: 360px) {
+
+    .text {
+        color: black;
+        font-size: 14px; /* Размер шрифта */
+        margin-right: 20px; /* Отступ между кнопками */
+        text-decoration: none;
+    }
+
+    .left-section {
+        display: flex; /* Используем Flexbox для горизонтального расположения кнопок */
+        position: absolute; /* Абсолютное позиционирование для левой секции */
+        left: 20px; /* Отступ от левого края */
+    }
+
+    .right-section {
+        position: absolute; /* Абсолютное позиционирование для правой секции */
+        right: 20px; /* Отступ от правого края */
+    }
+
+    .container-first {
+        width: 600px;
+        height: 1000px;
+        border-radius: 27px;
+        background-color: #545353;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: -30px;
+    }
+
+    .top-rectangle {
+        width: 600px;
+        height: 47px;
+        background-color: #35F2BA;
+        border-top-right-radius: 27px;
+        border-top-left-radius: 27px;
+        opacity: 0%;
+    }
+    
+    .bottom-rectangle {
+        width: 600px;
+        height: 47px;
+        background-color: #35F2BA;
+        border-bottom-left-radius: 27px; /* Скругление верхних и нижних углов*/
+        border-bottom-right-radius: 27px ;
+        opacity: 0%;
+    }
+
+    .container-second {
+        width: 600px;
+        height: 1100px;
+        border-radius: 27px;
+        background-color: #545353;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .top-rectangle-second {
+        width: 600px;
+        height: 52px;
+        background-color: #35F2BA;
+        border-top-left-radius: 27px;
+        border-top-right-radius: 27px;
+        opacity: 0%;
+    }
+    
+    .bottom-rectangle-second {
+        width: 600px;
+        height: 52px;
+        background-color: #35F2BA;
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+        opacity: 0%;
+    }
+
+    .container-third {
+        width: 600px;
+        height: 337px;
+        border-radius: 27px;
+        background-color: #545353;
+        display: flex;
+        justify-content: space-between; /* распределяет пространство между элементами. Если надо как-то по своему распределить все, используй лучше это. распределение по вертикали данный атрибут в целом */
+        flex-direction: column;
+        margin: auto;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+
+    .top-rectangle-third {
+        width: 600px;
+        height: 40px;
+        background-color: #35F2BA;
+        border-top-left-radius: 27px;
+        border-top-right-radius: 27px;
+        opacity: 0%;
+    }
+    
+    .bottom-rectangle-third {
+        width: 600px;
+        height: 40px;
+        background-color: #35F2BA;
+        border-bottom-left-radius: 27px;
+        border-bottom-right-radius: 27px;
+        opacity: 0%;
+    }
+}
+
+
+
+
