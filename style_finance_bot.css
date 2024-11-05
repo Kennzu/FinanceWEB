@@ -135,3 +135,246 @@ body {
     opacity: 45%;
     margin-top: 180px;
 }
+
+@media (max-width: 1440px) and (max-height: 900px) {
+    .container-info {
+        width: 500px;
+        height: 390px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        margin-top: 250px;
+        margin-bottom: auto;
+    }
+}
+
+@media (max-width: 1368px) and (max-height:768px) {
+    .container-info {
+        width: 400px;
+        height: 390px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        margin-top: 250px;
+        margin-bottom: auto;
+    }
+
+    .rectangle-background-object {
+        width: 600px;
+        height: 600px;
+        background-color: #363636;
+        border-radius: 25px;
+        margin-top: 120px;
+        margin-right: 100px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1280px) and (max-height: 1024px) {
+    .container-info {
+        width: 400px;
+        height: 390px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        margin-top: 250px;
+        margin-bottom: auto;
+    }
+
+    .rectangle-background-object {
+        width: 600px;
+        height: 600px;
+        background-color: #363636;
+        border-radius: 25px;
+        margin-top: 120px;
+        margin-right: 70px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+    .container-info {
+        width: 350px;
+        height: 390px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-top: 150px;
+        margin-bottom: auto;
+    }
+
+    .rectangle-background-object {
+        width: 600px;
+        height: 600px;
+        background-color: #363636;
+        border-radius: 25px;
+        margin-top: 60px;
+        margin-right: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 800px) and (max-height: 600px) {
+    .container-all {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-info {
+        display: flex;
+        width: 750px;
+        height: 390px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-top: 250px;
+        margin-bottom: auto;
+        margin-right: -900px;
+    }
+
+    .rectangle-background-object {
+        display: flex;
+        justify-content: space-between;
+        width: 750px;
+        height: 180px;
+        background-color: #363636;
+        border-radius: 25px;
+        margin-top: 60px;
+        padding: 10px;
+    }
+
+    .rectangles-up,
+    .rectangles-down {
+    display: flex; /* Включаем Flexbox для внутренних контейнеров */
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    margin-top: 0px;
+    }
+
+    .rectangle-mini {
+        width: 160px;
+        height: 160px;
+        background-color: #363636;
+        border-radius: 15px;
+        margin:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        background-color: #363636;
+        color: #FFFFFF;
+        font-size: 20px;
+        width: 290px;
+        height: 70px;
+        text-decoration: none;
+        border: none;
+        display: inline-block;
+        transition: box-shadow 0.3s ease;
+        border-radius: 25px;
+        margin-left: 240px;
+    }
+    
+    .btn:hover {
+        box-shadow: 0 0 10px rgb(144, 144, 144), 
+        0 0 20px rgba(144, 144, 144);
+    }
+    
+    .text-root {
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+        opacity: 45%;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 640px) and (max-height: 480px) {
+    .container-all {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container-info {
+        display: flex;
+        width: 600px;
+        height: 390px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-top: 250px;
+        margin-bottom: auto;
+        margin-right: -900px;
+    }
+
+    .bitcoin {
+        opacity: 0%;
+    }
+
+    .rectangle-background-object {
+        display: flex;
+        justify-content: space-between;
+        width: 550px;
+        height: 180px;
+        background-color: #363636;
+        border-radius: 25px;
+        margin-top: 60px;
+        padding: 10px;
+        margin-right: 30px;
+    }
+
+    .rectangles-up,
+    .rectangles-down {
+    display: flex; /* Включаем Flexbox для внутренних контейнеров */
+    justify-content: center; /* Центрируем элементы по горизонтали */
+    margin-top: 0px;
+    }
+
+    .rectangle-mini {
+        width: 160px;
+        height: 160px;
+        background-color: #363636;
+        border-radius: 15px;
+        margin:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        background-color: #363636;
+        color: #FFFFFF;
+        font-size: 20px;
+        width: 290px;
+        height: 70px;
+        text-decoration: none;
+        border: none;
+        display: inline-block;
+        transition: box-shadow 0.3s ease;
+        border-radius: 25px;
+        margin-left: 160px;
+    }
+    
+    .btn:hover {
+        box-shadow: 0 0 10px rgb(144, 144, 144), 
+        0 0 20px rgba(144, 144, 144);
+    }
+    
+    .text-root {
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+        opacity: 45%;
+        margin-top: 60px;
+    }
+}

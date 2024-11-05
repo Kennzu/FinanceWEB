@@ -131,3 +131,195 @@ body {
     opacity: 45%;
     margin-top: 220px;
 }
+
+@media (max-width: 1440px) and (max-height: 900px) {
+    .container-info {
+        width: 560px;
+        height: 580px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 150px;
+        margin-top: 150px;
+        margin-bottom: auto;
+    }
+}
+
+@media (max-width: 1368px) and (max-height: 768px) {
+    .container-info {
+        width: 500px;
+        height: 580px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 150px;
+        margin-top: 70px;
+        margin-bottom: auto;
+    }
+
+    .rectangle-background-object {
+        width: 520px;
+        height: 520px;
+        background-color: #363636;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 100px;
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 1280px) and (max-height: 1024px) {
+    .container-info {
+        width: 500px;
+        height: 680px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: auto;
+    }
+
+    .rectangle-background-object {
+        width: 520px;
+        height: 520px;
+        background-color: #363636;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 90px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 768px) {
+    .container-info {
+        width: 400px;
+        height: 680px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: auto;
+    }
+
+    .rectangle-background-object {
+        width: 520px;
+        height: 520px;
+        background-color: #363636;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 90px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 800px) and (max-height: 600px) {
+    .container-info {
+        width: 800px;
+        height: 680px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 60px;
+        margin-top: 520px;
+        margin-bottom: auto;
+        margin-right: -600px;
+    }
+
+    .rectangle-background-object {
+        width: 520px;
+        height: 520px;
+        background-color: #363636;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 120px;
+    }
+
+    .btn {
+        background-color: #363636;
+        color: #FFFFFF;
+        font-size: 20px;
+        width: 290px;
+        height: 70px;
+        text-decoration: none;
+        border: none;
+        display: inline-block;
+        transition: box-shadow 0.3s ease;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .btn:hover {
+        box-shadow: 0 0 10px rgb(144, 144, 144), 
+        0 0 20px rgba(144, 144, 144);
+    }
+    
+    .text-root {
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+        opacity: 45%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 800px) and (max-height: 600px) {
+    .container-info {
+        width: 800px;
+        height: 680px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 60px;
+        margin-top: 520px;
+        margin-bottom: auto;
+        margin-right: -550px;
+    }
+
+    .rectangle-background-object {
+        width: 520px;
+        height: 520px;
+        background-color: #363636;
+        border-radius: 25px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+
+    .btn {
+        background-color: #363636;
+        color: #FFFFFF;
+        font-size: 20px;
+        width: 290px;
+        height: 70px;
+        text-decoration: none;
+        border: none;
+        display: inline-block;
+        transition: box-shadow 0.3s ease;
+        border-radius: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .btn:hover {
+        box-shadow: 0 0 10px rgb(144, 144, 144), 
+        0 0 20px rgba(144, 144, 144);
+    }
+    
+    .text-root {
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+        opacity: 45%;
+        margin-top: 50px;
+    }
+}
