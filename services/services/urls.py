@@ -19,5 +19,7 @@ from django.urls import path, re_path
 from navigation import views
 
 urlpatterns = [
-    path('', views.index),
+    path('projects/finance_bot', views.finance_bot, name='finance_bot'),
+    path('projects/', views.project_page, name='all_projects'),
+    path('', views.main_page, name='main')
 ]

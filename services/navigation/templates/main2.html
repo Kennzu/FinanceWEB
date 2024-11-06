@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Финансовый проект</title>
-    <link rel="stylesheet" href="main_style2.css">
+    <link rel="stylesheet" href="{% static 'css/main_style2.css' %}" type="text/css">
 </head>
 
 <body>
@@ -17,8 +18,8 @@
                         <p class="logo-team">TFSP</p>
                         <p class="logo-team-under-text">TEAM FINANCE <br><br>SOURCE PROJECT</p>
                     </div>
-                    <a href="#" class="navbar-link-text">О нас</a>
-                    <a href="#" class="navbar-link-text">Поддержите проект</a>
+                    <a href="{% url 'all_projects' %}" class="navbar-link-text">Наши проекты</a>
+                    <a href="#" class="navbar-link-text">Поддержите нас</a>
                 </div>
                 <div class="right-section">
                     <a href="#" class="navbar-link-text">Войти</a>
@@ -94,9 +95,11 @@
                     <p class="text-about-financebot">
                         Данный бот предназначен для учета расходов и доходов, а также их оптимизации. Он позволяет пользователям легко отслеживать свои  финансы в привычном мессенджере, обеспечивая простоту и доступность. Обширный функционал с подробными инструкциями будет играть вспомогательнвм инструментом для вас в вашей жизни. <br><br> Преимущество использования телеграм-бота состоит в том, что он не будет учитывать переводы между собственными счетами, так как вы полностью контролируете вашу финансовую составляющую на основе ваших вводов и запросов, а также вывод в формат эксель документа для еще более просторной работы с вашими данными!
                     </p>
-                    <div class="buttons">
-                        <button class="btn">ПЕРЕЙТИ К ПРОЕКТУ</button>
-                    </div>
+                    
+                    <a href="{% url 'finance_bot' %}" class="btn">
+                        <p class="text_project">ПЕРЕЙТИ К ПРОЕКТУ</p>
+                    </a>
+                    
                 </div>
             </div>
             <div class="container">
@@ -123,9 +126,11 @@
                     <div class="text-about-autopay">
                         Мы разрабатываем приложение, которое значительно упрощает процесс денежных переводов, делая его быстрым и безопасным. Это решение нацелено на снижение временных затрат и минимизацию ошибок при проведении финансовых операций. Пользователи смогут легко отправлять и получать деньги, не беспокоясь о сложностях, связанных с традиционными методами. Наша цель — создать интуитивно понятный интерфейс, который обеспечит надежность и удобство в использовании.
                     </div>
-                    <div class="buttons">
-                        <button class="btn">ПЕРЕЙТИ К ПРОЕКТУ</button>
-                    </div>
+                    
+                        <a href="#" class="btn">
+                            <p class="text_project">ПЕРЕЙТИ К ПРОЕКТУ</p>
+                        </a>
+                    
                 </div>
             </div>
         </div>

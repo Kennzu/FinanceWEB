@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FINANCE BOT</title>
-    <link rel="stylesheet" href="style_finance_bot.css">
+    <link rel="stylesheet" href="{% static 'css/style_finance_bot.css' %}" type="text/css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <div class="header-navbar">
             <nav class="header-navbar-section">
                 <div class="left-section">
-                    <a href="#" class="navbar-link-text">Главная</a>
+                    <a href="{% url 'main' %}" class="navbar-link-text">Главная</a>
                     <a href="#" class="navbar-link-text">Документация</a>
                 </div>
                 <div class="right-section">
@@ -44,7 +45,9 @@
                             видеть на что у вас уходят деньги   и  получать 
                             советы - вы обратились по адресу!
                         </p>
-                        <button class="btn">НАЧАТЬ РАБОТУ</button>
+                        <a href="https://t.me/UwU_FransBot" class="btn">
+                            <p class="text_project">НАЧАТЬ РАБОТУ</p>
+                        </a>
                     </div>
                 </div>
                 <div class="rectangle-background-object">

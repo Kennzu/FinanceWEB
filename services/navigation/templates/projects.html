@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Проекты</title>
-    <link rel="stylesheet" href="style_projects.css">
+    <link rel="stylesheet" href="{% static 'css/style_projects.css' %}" type="text/css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
                         <p class="logo-team">TFSP</p>
                         <p class="logo-team-under-text">TEAM FINANCE <br><br>SOURCE PROJECT</p>
                     </div>
-                    <a href="#" class="navbar-link-text">Главная</a>
+                    <a href="{% url 'main' %}" class="navbar-link-text">Главная</a>
                     <a href="#" class="navbar-link-text">Поддержите нас</a>
                 </div>
             </nav>
