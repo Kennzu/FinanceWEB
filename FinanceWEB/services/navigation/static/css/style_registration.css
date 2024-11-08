@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color: #1B1B1B;
+}
+
+.header-navbar-section {
+    background-color: #363636;
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: space-between;
+    padding: 10px 20px; /* Внутренние отступы для панели */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.left-section {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.right-section {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navbar-link-text {
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.header-navbar-section a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.logo-team {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    letter-spacing: -0.15em; /* Сближение внутри объекта(текста)*/
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: 0.1px;
+}
+
+.logo-team-under-text {
+    font-size: 6px;
+    line-height: 4px;
+    align-items: center;
+    text-align: left; /* Выравнивание текста (влево вправо по центру и так далее) */
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.list-group-main {
+    display: flex;
+    justify-content: center;
+    margin: 163px;
+}
+
+.rectangle-authorize {
+    background-color: #FFFFFF;
+    width: 750px;
+    height: 570px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.behind-rectangle-authorize {
+    width: 740px;
+    height: 560px;
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 25px;
+    flex-direction: column;
+}
+
+.text-header {
+    color: #FFFFFF;
+    display: flex;
+    font-size: 48px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+form {
+    margin-bottom: 70px;
+}
+
+.form-group {
+    font-size: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+label {
+    display: flex;
+    margin-right: auto;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    font-size: 20px;
+    width: 600px;
+    height: 30px;
+}
+
+.text {
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.link-registration {
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+
+.btn {
+    font-size: 24px;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-navbar {
+    background-color: #363636;
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Центрируем элементы по вертикали */
+    justify-content: space-between;
+    padding: 10px 20px; /* Внутренние отступы для панели */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.left-section-footer {
+    color: #FFFFFF;
+}
+
+.text-root {
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-right: 80px;
+    opacity: 20%;
+}
+
+.link-tgbot {
+    color: #FFFFFF;
+    text-decoration: none; /* Убирает нижнее подчеркивание */
+}
+
+.link-tgbot:hover {
+    text-decoration: underline;
+}
